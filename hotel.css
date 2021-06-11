@@ -1,0 +1,473 @@
+
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: unset;
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 99vw;
+    color: blanchedalmond;
+
+}
+
+#nav{
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+
+.logo{
+    background-color: rgb(207, 50, 50) ;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+   top: 0%;
+}
+
+ ul li {
+    display: inline-block; 
+    font-size: 16px;
+    padding: 6px;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 253, 253); 
+    
+}
+
+ul li a:hover{
+    color: rgb(110, 94, 94);
+    transition: 0.3s ease;
+}
+
+h3{
+    text-align: justify;
+    padding:5px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    font-size: 22px;
+}
+
+#bgimg{
+    width: 120vw;
+    height: 120vh;
+    background-position: cover ;
+    opacity: 0.8;
+    max-width: 1500px;
+}
+
+.myhotel{
+    background-color: rgb(207, 50, 50);
+    color: rgb(255, 255, 255);
+    width: 650px;
+    height: 70px;
+    position: absolute;
+    top: 31%;
+    text-align: justify;
+    left: 5%;
+}
+.form1{
+    background-color: rgb(216, 216, 196);
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.text{
+    height: 30px;
+    width: 500px;
+    margin: 20px 15px 20px 35px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.date{
+    height: 30px;
+    width: 200px;
+    margin: 10px 30px 10px 30px;
+    padding: 5px;
+    font-size: 15px; 
+}
+
+
+.form1 span{
+    margin-left: 150px ;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+}
+
+.btn{
+    width: 200px;
+    height: 38px;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: grey;
+    color: honeydew;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(138, 128, 128);
+    color: black;
+    text-decoration: underline;
+}
+h6{
+    margin-left: 0%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    font-size: 15px;
+    display: inline-block;
+    padding-bottom: 15px;
+    
+}
+#img{
+    margin-left: 1%;
+    padding: 0%;
+    padding-top: 2px;
+}
+
+#room{
+    position: absolute;
+    top: 150%;
+    left: 2%;
+    height: 300px;
+    width: 420px;
+    opacity: 0.9;
+    
+}
+.roomss{
+    position: absolute;
+    top: 150%;
+    left: 34%;
+    height: 300px;
+    width: 430px;
+    opacity: 0.9;
+}
+.room1{
+    position: absolute;
+    top: 150%;
+    left: 67%;
+    height: 300px;
+     width: 420px;
+     opacity: 0.9;
+}
+
+.rooms span{
+    position: absolute;
+    margin-top: 10px;
+    top: 130%;
+    left: 2%;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  rgb(0, 0, 0);
+}
+.rooms h6{
+    position: absolute;
+    margin-top: 5px;
+    top: 140%;
+    left: 2%;
+}
+
+.single{
+    position: absolute;
+    top: 200%;
+    left: 3%;
+    color: black;
+    
+}
+
+.double{
+    position: absolute;
+    top: 200%;
+    left: 35%;
+}
+
+.duplex{
+    position: absolute;
+    top: 200%;
+    left: 68%;
+}
+
+.single  span.sroom{
+    color:rgb(114, 103, 103);
+    font-size: 15px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.double span.sroom{
+    color:rgb(114, 103, 103);
+    font-size: 15px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.duplex  span.sroom{
+    color:rgb(114, 103, 103);
+    font-size: 15px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.chooseroom{
+    position: absolute;
+    top: 220%;
+    left: 3%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 400px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.chooseroom:hover{
+    background-color: rgb(48, 45, 45);
+}
+
+.chooseroom1{
+    position: absolute;
+    top: 220%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 400px;
+    height: 30px;
+    border-radius: 2px;
+}
+.chooseroom1:hover{
+    background-color: rgb(48, 45, 45);
+}
+
+.chooseroom2{
+    position: absolute;
+    top: 220%;
+    left: 68%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 400px;
+    height: 30px;
+    border-radius: 2px;
+}
+.chooseroom2:hover{
+    background-color: rgb(48, 45, 45);
+}
+
+.spanabt{
+    position: absolute;
+    top: 245%;
+    left: 3%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.abt{
+position: absolute;
+top: 260%;
+left: 3%;
+}
+
+.imgabt{
+    position: absolute;
+    top: 250%;
+    left: 48%;
+    width: 680px; 
+    height: 410px; 
+}
+
+.redbox{
+    background-color:rgb(207, 50, 50) ;
+    height: 90px;
+    position: absolute;
+    top: 320%;
+    width: 1530px;
+    
+}
+
+.pbox{
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+}
+
+.ourhotel span{
+    position: absolute;
+    top: 350%;
+    left: 3%;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.paris{
+    position: absolute;
+    top: 360%;
+    left: 3%;
+    height:470px;
+}
+
+.maldives{
+    position: absolute;
+    top: 360%;
+    left: 53%;
+    height: 250px;
+    width: 575px;
+}
+
+.newyork{
+    position: absolute;
+    top: 395%;
+    left: 53%;
+    height: 200px;
+    width: 280px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+.egypt{
+    position: absolute;
+    top: 395%;
+    left: 73%;
+    height: 200px;
+    width: 280px;
+    margin-top: 20px;
+   
+}
+
+
+.subscribe{
+    position: absolute;
+    top: 450%;
+    height: 270px;
+    width: 105%;
+   background-color: rgb(46, 33, 33);
+}
+
+.subscribe:hover{
+    background-color: rgb(75, 74, 74);
+}
+
+.offer{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+.subscribe span{
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    line-height: 50px;
+}
+
+
+.email{
+    height: 40px;
+    width: 1100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.submithere{
+    background-color: rgb(207, 50, 50) ;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 3px solid transparent;
+    border: none;
+    height: 45px;
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.submithere:hover{
+    background-color: tomato;
+}
+
+.contact{
+    position: absolute;
+    top: 500%;
+}
+
+.cont{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.cont1{
+    margin-left: 0px;
+     padding-right: 20px;
+     
+}
+
+.contactform{
+   margin-top: 30px;
+   height: 200px;
+   width: 1345px;
+}
+
+
+.ct{
+    border: 2px solid lightgrey;
+    height: 30px;
+    width: 1000px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+
+.contactbtn{
+    background-color: black;
+    color: blanchedalmond;
+    height: 40px;
+    width: 140px;
+   margin-left: 10px;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactbtn:hover{
+    background-color: rgb(56, 50, 50);
+    text-decoration: underline;
+}
+
+.findus{
+    position: absolute;
+    top: 570%;
+    background-color: black;
+    color: blanchedalmond;
+    height: 200px;
+    width: 1530px;
+    
+}
+
+.find{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    top: 25%;
+}
+
+.icons{
+    margin-left: 690px;
+    padding: 0;
+}
