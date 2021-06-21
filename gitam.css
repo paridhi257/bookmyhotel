@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*logo design*/
+
+.llogo{
+    height: 80px;
+}
+
+.rightlogo{
+    display: inline-block;
+    margin-left: 25%;
+}
+
+/*navbar design*/
+.navbar{
+    background-color:#b1040e;
+    height: 45px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+li a:hover:not(.active){
+    background-color: yellow;
+    height: 45px;
+}
+
+.active {
+    background-color: rgb(255, 0, 149);
+  }
+
+
+ul li{
+    display: inline-block;
+     }
+
+ul li a{
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav2 ul li{
+    margin-left: 70%;
+    display: inline-block;
+}
+
+.logo1{
+    background-color: transparent;
+}
+
+/*slideshow*/
+.slideshow{
+    position: relative;
+    margin: auto;
+  }
+
+
+/*footer and about*/
+.about{
+    margin-top: 5%;
+    margin-left: 14%;
+    text-align: justify;
+    justify-content: center;
+    height: 30px;
+    width: 75%;
+    word-spacing: 5px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height-step: 1.5px;
+    line-height: 25px;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.about span{
+    color: #b1040e;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 32px;
+    margin-left: 43%;
+}
+
+.footer{
+    background-color:#b1040e ;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    text-align:  center;
+    top: 185%;
+    width: 100vw;
+    padding-top:1%;
+    
+}
+
+/*Images design*/
+.images{
+    height:400px ;
+    width: 1300px;
+}
+
+
+.img1{
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    transition: 1s;
+    border: 2px solid #333;
+    padding: 2px;
+    margin: 30px 30px 0px 80px;
+    vertical-align: middle;
+
+}
+
+.img1:hover{
+    width: 310px;
+    height: 160px;  
+}
+
+/*videos design*/
+.videos{
+    width: 1500px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.vid{
+    border: 2px solid black;
+    margin: 30px;
+}
